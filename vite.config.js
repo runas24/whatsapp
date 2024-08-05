@@ -2,8 +2,8 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  root: 'src', // Указываем папку с исходными файлами
+  root: 'src', // Папка с исходными файлами
   build: {
-    outDir: '../dist' // Указываем папку для собранных файлов
+    outDir: '../dist' // Папка для собранных файлов
   }
 })

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Archive Viewer</title>
+  <script type="module" crossorigin src="/assets/index-mz0A-UWj.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-DGKd5FUW.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>WhatsApp Archive Viewer</h1>
+        </header>
+        <main>
+            <input type="file" id="fileInput" accept=".zip" />
+            <div id="loading" class="loading">Загрузка...</div>
+            <div id="error" class="error"></div>
+            <div id="chat" class="chat"></div>
+        </main>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/opus-recorder/0.1.1/opus-recorder.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsmediatags/3.9.5/jsmediatags.min.js"></script>
+</body>
+</html>
