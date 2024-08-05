@@ -14,7 +14,14 @@
       {
         "src": "/(.*)",
         "dest": "/index.html"
+      },
+      {
+        "src": "/styles.css",
+        "dest": "/public/styles.css"
+      },
+      {
+        "src": "/script.js",
+        "dest": "/public/script.js"
       }
     ]
   }
-  
