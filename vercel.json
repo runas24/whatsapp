@@ -1,12 +1,13 @@
 {
     "version": 2,
+    "public": "public",
     "builds": [
       {
-        "src": "public/**/*",
+        "src": "index.html",
         "use": "@vercel/static"
       },
       {
-        "src": "index.html",
+        "src": "public/**/*",
         "use": "@vercel/static"
       }
     ],
