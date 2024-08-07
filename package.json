@@ -1,7 +1,6 @@
 {
   "name": "wa",
   "version": "1.0.0",
-  "main": "index.html",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -23,9 +22,6 @@
   "homepage": "https://github.com/runas24/whatsapp#readme",
   "description": "",
   "devDependencies": {
-    "vite": "^5.3.5"
-  },
-  "dependencies": {
     "vite": "^5.3.5"
   }
 }
