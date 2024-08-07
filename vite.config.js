@@ -1,9 +1,9 @@
-// vite.config.js
-import { defineConfig } from 'vite'
+import { defineConfig } from 'vite';
 
 export default defineConfig({
-  root: 'src', // Папка с исходными файлами
+  root: 'src',
   build: {
-    outDir: '../dist' // Папка для собранных файлов
+    outDir: '../dist',
+    emptyOutDir: true
   }
-})
+});

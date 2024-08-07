@@ -1,32 +1,13 @@
 {
   "name": "wa",
   "version": "1.0.0",
-  "main": "index.html",
+  "description": "A static website project using Vite",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/runas24/whatsapp.git"
-  },
-  "keywords": [
-    "whatsapp",
-    "export"
-  ],
-  "author": "runas",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/runas24/whatsapp/issues"
-  },
-  "homepage": "https://github.com/runas24/whatsapp#readme",
-  "description": "",
   "devDependencies": {
     "vite": "^5.3.5"
-  },
-  "dependencies": {
-    "vite": "^4.0.0"
   }
 }
